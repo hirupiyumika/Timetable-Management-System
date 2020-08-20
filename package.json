@@ -1,8 +1,8 @@
 {
-  "name": "buglogger",
-  "productName": "Buglogger",
+  "name": "tms",
+  "productName": "Timetable Mangement System",
   "version": "1.0.0",
-  "description": "App bug tracker for teams",
+  "description": "App to mangage timetables",
   "license": "MIT",
   "engines": {
     "node": ">=9.0.0",

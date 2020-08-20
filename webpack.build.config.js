@@ -29,7 +29,7 @@ module.exports = {
   },
   target: "electron-renderer",
   plugins: [
-    new HtmlWebpackPlugin({ title: "Buglogger" }),
+    new HtmlWebpackPlugin({ title: "Timetable Mangement System " }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
