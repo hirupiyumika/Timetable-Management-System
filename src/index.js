@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { HashRouter } from "react-router-dom";
 import ReactDOM from "react-dom";
-import { LogProvider } from "./../src/context/context";
+import { StudentProvider } from "./../src/context/StudentContext";
 // Since we are using HtmlWebpackPlugin WITHOUT a template, we should create our own root node in the body element before rendering into it
 let root = document.createElement("div");
 
@@ -14,10 +14,10 @@ document.body.appendChild(root);
 
 // Now we can render our application into it
 ReactDOM.render(
-  <LogProvider>
+  <StudentProvider>
     <HashRouter>
       <App />
     </HashRouter>
-  </LogProvider>,
+  </StudentProvider>,
   document.getElementById("root")
 );
